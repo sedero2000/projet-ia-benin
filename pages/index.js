@@ -117,9 +117,9 @@ export default function Home() {
                 DU PROBLÈME AU PROJET — EN 2 MINUTES
               </div>
               <h1>
-                TA <span className="strike">IDÉE</span><br />
-                NE LÈVE PAS<br />
-                D'<span className="red">ARGENT</span>.
+                PERSONNE<br />
+                NE <span className="red">FINANCE</span><br />
+                TES <span className="strike">IDÉES</span>.
               </h1>
               <p className="lede">
                 Un projet bien posé, si. Décris ton problème réel — celui qui te tient debout la nuit — et reçois ton projet structuré.
