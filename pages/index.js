@@ -122,7 +122,7 @@ export default function Home() {
                 TES <span className="strike">IDÉES</span>.
               </h1>
               <p className="lede">
-                Un projet bien posé, si. Décris ton problème réel — celui qui te tient debout la nuit — et reçois ton projet structuré.
+                Tu as une idée depuis des mois. Peut-être des années. Tu en parles aux amis, à la famille. Tout le monde dit « c'est bien ». Mais ton compte en banque, lui, ne bouge pas. Pourquoi ? Parce qu'une idée n'a jamais financé personne. Un projet structuré, si.
               </p>
               <div className="deliverables-list">
                 <span>01 IDÉE PROJET</span>
