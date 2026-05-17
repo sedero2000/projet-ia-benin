@@ -1,8 +1,8 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-// Rate limiting en mémoire (3 requêtes par IP par jour)
+// Rate limiting en mémoire (1 essai par IP par jour)
 const ipRequests = new Map();
-const DAILY_LIMIT = 3;
+const DAILY_LIMIT = 1;
 const ONE_DAY_MS = 24 * 60 * 60 * 1000;
 
 function checkRateLimit(ip) {
@@ -53,7 +53,7 @@ export default async function handler(req, res) {
   if (!limit.allowed) {
     return res.status(429).json({
       error:
-        "Tu as atteint la limite de 3 générations par jour. Reviens demain ou contacte Hector directement sur WhatsApp.",
+        "Tu as utilisé ton essai gratuit. Pour aller plus loin avec ton projet, contacte Hector directement sur WhatsApp.",
     });
   }
 
